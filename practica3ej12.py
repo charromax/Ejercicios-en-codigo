@@ -12,4 +12,4 @@ for numeros in range(ene): # la variable numeros va adquiriendo valores entre 0 
         numMasAlto = numero      # si el numero ingresado es el mas alto HASTA AHORA, entonces el numero mas alto pasa a ser el numero ingresado
     listaDeNumerosIngresados.append(numero)          # lo agrego a la lista de numeros ingresados
 
-print(f"El numero mas alto en la lista {listaDeNumerosIngresados} es: {numMasAlto}")
+print(f"El numero mas alto en la lista {listaDeNumerosIngresados} es: {numMasAlto}") #forma recomendada de construir strings
