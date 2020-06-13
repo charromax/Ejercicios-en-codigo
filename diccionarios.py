@@ -10,6 +10,7 @@ def semana(i):                          # semana es una FUNCION que devuelve un 
                 6:'Sabado'
              }
         return diasDeLaSemana.get(i,"el dia Osvaldo todavia no existe")
-
+# ------------------------------------------------------------------------------------------------------------------
+# la ejecucion comienza aqui
 
 print(semana(5))
