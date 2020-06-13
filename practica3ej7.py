@@ -8,6 +8,6 @@ potencia = int(input("ingrese la potencia: "))
 
 resultado = 1
 for indice in range(0, potencia):
-    resultado *= base             # multiplica y adiciona resultado * base  
+    resultado *= base             # equivalente a resultado = resultado * base  
                                   # También existen las abreviaciones +=, -=, /=, y %=
 print(resultado)
