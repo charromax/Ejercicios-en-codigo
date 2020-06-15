@@ -16,10 +16,10 @@ posMenor = 0
 
 for index in range(0, len(randomlist)):
 
-    if randomlist[index] > numeroMayor:
-        numeroMayor = randomlist[index]
-        posMayor = index
-    elif randomlist[index] < numeroMenor:
+    if randomlist[index] > numeroMayor:   #si el numero ACTUAL es mayor que el MAYOR HASTA AHORA
+        numeroMayor = randomlist[index]   # reemplazar el MAYOR con el numero ACTUAL y 
+        posMayor = index                  # guardar su posicion
+    elif randomlist[index] < numeroMenor: # lo mismo pero con los menores
         numeroMenor = randomlist[index]
         posMenor = index
 
