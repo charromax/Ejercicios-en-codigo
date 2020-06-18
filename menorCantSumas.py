@@ -14,7 +14,7 @@ for num in randomlist:
     suma += num
     sumaString += (str(randomlist[cantidadDeSumas]) + " + ")
     cantidadDeSumas = cantidadDeSumas + 1
-    if suma > 55:
+    if suma > 55:                                  # otra forma es romper el bucle for con break
         break
 
 print(f"la suma es {sumaString}")
