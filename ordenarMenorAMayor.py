@@ -8,7 +8,7 @@ import random
 
 list = []
 for i in range(0, 5): # genera una lista de 80 reales aleatorios
-    list.append(round(random.uniform(0.0, 5.0), 2))  
+    list.append(round(random.uniform(0.0, 5.0), 2))  #redondeando los floats a 2 decimales
 
 #--------------------------------------------------------------------------
 # se utiliza metodo burbuja
