@@ -20,7 +20,7 @@ ordenado = False
 while ordenado == False:
     ordenado = True
     for i in range(len(list) - 1):
-        if list[i] < list[i+1]: 
+        if list[i] > list[i+1]: 
             mayor = list[i]
             list[i] = list[i+1]  #se intercambian los valores
             list[i+1] = mayor
