@@ -24,6 +24,7 @@ while ordenado == False:
             mayor = list[i]
             list[i] = list[i+1]  #se intercambian los valores
             list[i+1] = mayor
+            print(list)
             ordenado = False     #cuando llegue al penultimo elemento
                                  #si ya no se cumple la condicion se asume ordenado el array
 
