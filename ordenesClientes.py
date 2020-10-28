@@ -17,15 +17,16 @@
 # ------------------------------------------------------------------------------
 import random
 
-rows, cols = (15, 2) 
+rows, cols = (100, 2) 
 arr = [[random.randint(0, 10) for i in range(cols)] for j in range(rows)] 
 for i in range(rows):
     print(arr[i])
 
 #-------------------------------------------------------------------------------
 
-cantForms = [0 for i in range(11)]
-cantPedidos = [0 for i in range(11)]
+
+cantForms = [0 for i in range(101)]
+cantPedidos = [0 for i in range(101)]
 for i in range(rows):
     cantForms[arr[i][0]] += arr[i][1]
     cantPedidos[arr[i][0]] += 1

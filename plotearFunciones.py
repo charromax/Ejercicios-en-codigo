@@ -23,7 +23,7 @@ def get_b(pedacito):
 
 # Draw multiple points.
 def draw_multiple_points(a, b, maxValue, minValue, step, funcion):
-
+    
     # x axis value list.
     x_number_list = list(range(minValue, maxValue, step))
     
