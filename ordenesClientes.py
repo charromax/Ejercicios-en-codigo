@@ -31,7 +31,7 @@ for i in range(rows):
     cantForms[arr[i][0]] += arr[i][1]
     cantPedidos[arr[i][0]] += 1
 
-client_id = int(input("ingrese la id del cliente(0 - 10) para recibir informacion: "))
+client_id = int(input("ingrese la id del cliente(0 - 100) para recibir informacion: "))
 print('buscando info....')
 print('')
 print('-----------------------------------------------------------------------------')
