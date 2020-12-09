@@ -18,10 +18,8 @@
 import random
 
 rows, cols = (100, 2) 
-arr = [[random.randint(0, 10) for i in range(cols)] for j in range(rows)] 
-for i in range(rows):
-    print(arr[i])
-
+arr = [[random.randint(0, 100) for i in range(cols)] for j in range(rows)] 
+print(arr)
 #-------------------------------------------------------------------------------
 
 
@@ -36,3 +34,7 @@ print('buscando info....')
 print('')
 print('-----------------------------------------------------------------------------')
 print(f"El cliente {client_id} realizo {cantPedidos[client_id]} pedidos, por un total de {cantForms[client_id]} formularios")
+
+
+
+
